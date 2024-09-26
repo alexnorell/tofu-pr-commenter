@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.0.0
+
+- Switch to tofu
+
 ## v1.5.0
 
 - Bump to Terraform v1.0.6 internally (only affects `fmt`)

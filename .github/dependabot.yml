@@ -3,13 +3,9 @@ updates:
   - package-ecosystem: 'docker'
     directory: '/'
     schedule:
-      interval: 'monthly'
-    commit-message:
-      prefix: 'chore(docker)'
+      interval: 'daily'
     labels:
       - 'docker'
-    open-pull-requests-limit: 100
+    open-pull-requests-limit: 1
     rebase-strategy: auto
-    reviewers:
-      - 'janhartje'
     target-branch: main
